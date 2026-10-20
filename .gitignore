@@ -1,0 +1,12 @@
+.DS_Store
+
+# Local SQLite (synced via favorites.json instead)
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+/data/*.sqlite
+/data/*.sqlite-*
+
+# Viewer tooling
+viewer

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "exportedAt": "2026-10-20T05:22:47.814Z",
+  "sentences": [],
+  "words": [
+    {
+      "id": 1,
+      "word": "Late-morning",
+      "wordKey": "late-morning",
+      "createdAt": 1792473767642,
+      "sentences": [
+        {
+          "sid": "b03c01-s006",
+          "bookId": "03-mummies-in-the-morning",
+          "chapterId": "01-meow",
+          "sentenceEn": "Late-morning sunlight lit the woods.",
+          "createdAt": 1792473767642
+        }
+      ]
+    }
+  ]
+}
