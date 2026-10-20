@@ -9,4 +9,5 @@
 /data/*.sqlite-*
 
 # Viewer tooling
-viewer
+viewer/node_modules
+viewer/dist

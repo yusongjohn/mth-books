@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T06:24:53Z",
+  "title": "Design System: Magic Tree House Viewer",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Timetable Ink",
+        "canonical": "#15212b",
+        "tonalRamp": ["#0a1014", "#15212b", "#1d2b36", "#2c3b47", "#5b7182", "#a9b5bd", "#eef1ee", "#f4f3ee"]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Lift",
+        "canonical": "#1d2b36",
+        "tonalRamp": ["#0a1014", "#15212b", "#1d2b36", "#2c3b47", "#3d4f5c", "#5b7182", "#a9b5bd", "#eef1ee"]
+      },
+      "ink-line": {
+        "role": "neutral",
+        "displayName": "Ink Line",
+        "canonical": "#2c3b47",
+        "tonalRamp": ["#15212b", "#1d2b36", "#2c3b47", "#3d4f5c", "#5b7182", "#7a8d9a", "#a9b5bd", "#d8d7cf"]
+      },
+      "board-fg": {
+        "role": "neutral",
+        "displayName": "Board Foreground",
+        "canonical": "#eef1ee",
+        "tonalRamp": ["#2c3b47", "#5b7182", "#a9b5bd", "#c5ccc8", "#d8d7cf", "#e7e6df", "#eef1ee", "#fbfaf7"]
+      },
+      "board-muted": {
+        "role": "neutral",
+        "displayName": "Board Muted",
+        "canonical": "#a9b5bd",
+        "tonalRamp": ["#2c3b47", "#56616a", "#5b7182", "#7a8d9a", "#a9b5bd", "#c5ccc8", "#e7e6df", "#eef1ee"]
+      },
+      "signal": {
+        "role": "secondary",
+        "displayName": "Signal Yellow",
+        "canonical": "#f4c21b",
+        "tonalRamp": ["#5c4808", "#8a6c0c", "#b89212", "#d4a916", "#f4c21b", "#f7d155", "#fae48e", "#fdf6d4"]
+      },
+      "route": {
+        "role": "tertiary",
+        "displayName": "Route Blue-Grey",
+        "canonical": "#5b7182",
+        "tonalRamp": ["#1d2b36", "#2c3b47", "#3d4f5c", "#5b7182", "#7a8d9a", "#a9b5bd", "#c5ccc8", "#eef1ee"]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Timetable Stock",
+        "canonical": "#f4f3ee",
+        "tonalRamp": ["#56616a", "#9aa1a3", "#d8d7cf", "#e7e6df", "#f4f3ee", "#f8f7f3", "#fbfaf7", "#ffffff"]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "#fbfaf7",
+        "tonalRamp": ["#56616a", "#9aa1a3", "#d8d7cf", "#e7e6df", "#f4f3ee", "#f8f7f3", "#fbfaf7", "#ffffff"]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Stock Wash",
+        "canonical": "#e7e6df",
+        "tonalRamp": ["#56616a", "#9aa1a3", "#b9bcb6", "#d8d7cf", "#e7e6df", "#f4f3ee", "#fbfaf7", "#ffffff"]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Reading Secondary",
+        "canonical": "#56616a",
+        "tonalRamp": ["#15212b", "#2c3b47", "#56616a", "#5b7182", "#7a8d9a", "#a9b5bd", "#c5ccc8", "#e7e6df"]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Stock Rule",
+        "canonical": "#d8d7cf",
+        "tonalRamp": ["#56616a", "#9aa1a3", "#b9bcb6", "#d8d7cf", "#e7e6df", "#f4f3ee", "#fbfaf7", "#ffffff"]
+      },
+      "destructive": {
+        "role": "primary",
+        "displayName": "Destructive",
+        "canonical": "#b3261e",
+        "tonalRamp": ["#4a0f0c", "#6e1612", "#8f1e18", "#b3261e", "#c94a43", "#db7a74", "#ecc0bd", "#f8e8e7"]
+      },
+      "bookmark-idle": {
+        "role": "neutral",
+        "displayName": "Bookmark Idle",
+        "canonical": "#9aa1a3",
+        "tonalRamp": ["#2c3b47", "#56616a", "#5b7182", "#7a8d9a", "#9aa1a3", "#b9bcb6", "#d8d7cf", "#eef1ee"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Sticky chapter title on the departure board (Barlow Condensed 600)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Product name and board section titles in condensed uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Pager chapter titles and mid-weight board meta."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "English chapter prose in Charter/Iowan; default 18px, 66ch measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Board switches, column headers, time phrases, figure notes."
+      }
+    },
+    "shadows": [
+      {
+        "name": "board-sticky",
+        "value": "0 6px 16px -10px rgba(21,33,43,0.6)",
+        "purpose": "Soft drop under the sticky departure board only."
+      },
+      {
+        "name": "here-ring",
+        "value": "0 0 0 4px #15212b",
+        "purpose": "Ink halo around the signal yellow current-stop disc."
+      }
+    ],
+    "motion": [
+      {
+        "name": "route-here-slide",
+        "value": "left 0.6s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Current-position marker slides along the route line on chapter change; none under prefers-reduced-motion."
+      },
+      {
+        "name": "stop-state",
+        "value": "border-color 0.2s ease-out, background-color 0.2s ease-out",
+        "purpose": "Route stop hover and passed-state transitions."
+      },
+      {
+        "name": "tab-reveal",
+        "value": "opacity 0.15s ease-out, color 0.15s ease-out",
+        "purpose": "Unkept bookmark tabs fade in on hover/focus."
+      },
+      {
+        "name": "express-dim",
+        "value": "opacity 0.25s ease-out",
+        "purpose": "Express mode dims non-kept sentences."
+      }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Board Switch",
+      "kind": "button",
+      "refersTo": "board-switch",
+      "description": "Ink-board control for language, size, and express; pressed fills signal yellow.",
+      "html": "<div class=\"ds-switch-well\" role=\"group\"><button type=\"button\" class=\"ds-board-switch ds-board-switch-on\">中英</button><button type=\"button\" class=\"ds-board-switch\">英文</button><button type=\"button\" class=\"ds-board-switch\">中文</button></div>",
+      "css": ".ds-switch-well { display: inline-flex; gap: 0; padding: 2px; border-radius: 0.25rem; background: #1d2b36; font-family: \"Barlow Condensed\", \"PingFang SC\", sans-serif; } .ds-board-switch { height: 32px; padding: 0 12px; border: 0; border-radius: 0.25rem; background: transparent; color: #a9b5bd; font-family: inherit; font-size: 15px; font-weight: 600; letter-spacing: 0.025em; cursor: pointer; transition: background-color 0.15s ease-out, color 0.15s ease-out; } .ds-board-switch:hover { background: #2c3b47; color: #eef1ee; } .ds-board-switch:focus-visible { outline: 2px solid #f4c21b; outline-offset: 2px; } .ds-board-switch-on, .ds-board-switch[aria-pressed=\"true\"] { background: #f4c21b; color: #15212b; }"
+    },
+    {
+      "name": "Board Switch Pressed",
+      "kind": "button",
+      "refersTo": "board-switch-pressed",
+      "description": "Pressed board switch: signal fill, ink text.",
+      "html": "<button type=\"button\" class=\"ds-board-switch-pressed\" aria-pressed=\"true\">只看收藏</button>",
+      "css": ".ds-board-switch-pressed { height: 32px; padding: 0 12px; border: 0; border-radius: 0.25rem; background: #f4c21b; color: #15212b; font-family: \"Barlow Condensed\", \"PingFang SC\", sans-serif; font-size: 15px; font-weight: 600; letter-spacing: 0.025em; cursor: pointer; } .ds-board-switch-pressed:hover { filter: brightness(0.96); } .ds-board-switch-pressed:focus-visible { outline: 2px solid #5b7182; outline-offset: 2px; }"
+    },
+    {
+      "name": "Timetable Row",
+      "kind": "nav",
+      "refersTo": "timetable-row",
+      "description": "Four-column book row on the ink timetable; current row is a signal bar.",
+      "html": "<div class=\"ds-tt\"><div class=\"ds-tt-head\"><span>No.</span><span>出发</span><span>书名</span><span>收藏</span></div><button type=\"button\" class=\"ds-tt-row\"> <span class=\"ds-tt-no\">02</span><span class=\"ds-tt-time\">DARK</span><span class=\"ds-tt-title\">The Knight at Dawn</span><span class=\"ds-tt-kept\"></span></button><button type=\"button\" class=\"ds-tt-row ds-tt-row-current\"> <span class=\"ds-tt-no\">03</span><span class=\"ds-tt-time\">MORNING</span><span class=\"ds-tt-title\">Mummies in the Morning</span><span class=\"ds-tt-kept\">37</span></button></div>",
+      "css": ".ds-tt { background: #15212b; color: #eef1ee; font-family: system-ui, \"PingFang SC\", sans-serif; width: 340px; } .ds-tt-head, .ds-tt-row { display: grid; grid-template-columns: 24px 76px minmax(0,1fr) auto; gap: 10px; padding: 10px 24px; width: 100%; box-sizing: border-box; text-align: left; border: 0; border-bottom: 1px solid #2c3b47; } .ds-tt-head { font-family: \"Barlow Condensed\", sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #a9b5bd; padding-bottom: 8px; } .ds-tt-row { background: transparent; color: #eef1ee; font-size: 14px; line-height: 1.35; cursor: pointer; transition: background-color 0.15s ease-out; } .ds-tt-row:hover { background: #1d2b36; } .ds-tt-row:focus-visible { outline: 2px solid #f4c21b; outline-offset: -2px; } .ds-tt-no { font-family: \"Barlow Condensed\", sans-serif; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; color: #a9b5bd; } .ds-tt-time { font-family: \"Barlow Condensed\", sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; } .ds-tt-kept { font-family: \"Barlow Condensed\", sans-serif; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; color: #f4c21b; } .ds-tt-row-current { background: #f4c21b; color: #15212b; } .ds-tt-row-current .ds-tt-no, .ds-tt-row-current .ds-tt-kept { color: #15212b; }"
+    },
+    {
+      "name": "Ink Search",
+      "kind": "input",
+      "refersTo": "search-ink",
+      "description": "Sidebar search on ink-2; focus border turns signal, no glow ring.",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-search-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M20 20l-3.5-3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg><input class=\"ds-search-input\" type=\"search\" placeholder=\"搜索书名或编号\" maxlength=\"50\" /></label>",
+      "css": ".ds-search { position: relative; display: block; background: #15212b; padding: 12px 24px; font-family: system-ui, \"PingFang SC\", sans-serif; } .ds-search-icon { position: absolute; left: 36px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); color: #a9b5bd; pointer-events: none; } .ds-search-input { width: 100%; height: 36px; box-sizing: border-box; padding: 0 12px 0 36px; border: 1px solid #2c3b47; border-radius: 0.25rem; background: #1d2b36; color: #eef1ee; font-size: 14px; outline: none; transition: border-color 0.15s ease-out; } .ds-search-input::placeholder { color: #a9b5bd; } .ds-search-input:hover { border-color: #5b7182; } .ds-search-input:focus-visible { border-color: #f4c21b; }"
+    },
+    {
+      "name": "Bookmark Tab",
+      "kind": "custom",
+      "refersTo": "bookmark-tab",
+      "description": "Kept-sentence mark: notched tab; unkept hidden at rest, kept filled with signal.",
+      "html": "<p class=\"ds-line\">It was almost time for lunch.<button type=\"button\" class=\"ds-fav-btn ds-fav-btn-on\" aria-pressed=\"true\" aria-label=\"取消收藏句子\"><svg viewBox=\"0 0 12 16\" aria-hidden=\"true\"><path d=\"M1.5 1.5h9v13L6 11l-4.5 3.5z\"/></svg></button></p><p class=\"ds-line ds-line-idle\">“It's still here,” said Jack.<button type=\"button\" class=\"ds-fav-btn\" aria-pressed=\"false\" aria-label=\"收藏句子\"><svg viewBox=\"0 0 12 16\" aria-hidden=\"true\"><path d=\"M1.5 1.5h9v13L6 11l-4.5 3.5z\"/></svg></button></p>",
+      "css": ".ds-line { margin: 0 0 1em; font-family: Charter, \"Iowan Old Style\", Georgia, serif; font-size: 18px; line-height: 1.7; color: #15212b; } .ds-fav-btn { display: inline-flex; align-items: center; justify-content: center; width: 0.8em; height: 1.1em; margin-left: -0.05em; padding: 0; border: 0; background: none; vertical-align: -0.12em; color: #9aa1a3; opacity: 0; cursor: pointer; border-radius: 2px; transition: opacity 0.15s ease-out, color 0.15s ease-out; } .ds-fav-btn svg { width: 0.62em; height: 0.82em; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round; } .ds-line:hover .ds-fav-btn { opacity: 0.5; } .ds-fav-btn:hover, .ds-fav-btn:focus-visible { opacity: 1; color: #15212b; } .ds-fav-btn:focus-visible { outline: 2px solid #5b7182; outline-offset: 2px; } .ds-fav-btn-on { margin-left: 0.15em; opacity: 1; color: #15212b; } .ds-fav-btn-on svg { fill: #f4c21b; }"
+    },
+    {
+      "name": "Route Line",
+      "kind": "nav",
+      "refersTo": "timetable-row-current",
+      "description": "Chapter stops on a muted track; signal disc marks here; kept stops grow a signal tick.",
+      "html": "<div class=\"ds-route\" role=\"group\" aria-label=\"本书章节\"><button type=\"button\" class=\"ds-stop ds-stop-here ds-stop-kept\" style=\"left:0%\" aria-current=\"page\" aria-label=\"第 1 章\"></button><button type=\"button\" class=\"ds-stop\" style=\"left:33%\" aria-label=\"第 2 章\"></button><button type=\"button\" class=\"ds-stop\" style=\"left:66%\" aria-label=\"第 3 章\"></button><button type=\"button\" class=\"ds-stop\" style=\"left:100%\" aria-label=\"第 4 章\"></button><span class=\"ds-here\" style=\"left:0%\" aria-hidden=\"true\"></span></div>",
+      "css": ".ds-route { position: relative; height: 22px; margin: 0 11px; background: #15212b; } .ds-route::before { content: \"\"; position: absolute; left: 0; right: 0; top: 50%; height: 3px; transform: translateY(-50%); background: #a9b5bd; opacity: 0.55; } .ds-stop { position: absolute; top: 50%; width: 13px; height: 13px; transform: translate(-50%, -50%); border-radius: 999px; border: 3px solid #a9b5bd; background: #15212b; padding: 0; cursor: pointer; transition: border-color 0.2s ease-out, background-color 0.2s ease-out; } .ds-stop:hover { border-color: #eef1ee; } .ds-stop:focus-visible { outline: 2px solid #f4c21b; outline-offset: 2px; } .ds-stop-kept::after { content: \"\"; position: absolute; left: 50%; bottom: calc(100% + 11px); width: 3px; height: 7px; transform: translateX(-50%); background: #f4c21b; } .ds-here { position: absolute; top: 50%; width: 22px; height: 22px; transform: translate(-50%, -50%); border-radius: 999px; background: #f4c21b; box-shadow: 0 0 0 4px #15212b; pointer-events: none; transition: left 0.6s cubic-bezier(0.16, 1, 0.3, 1); }"
+    },
+    {
+      "name": "Pager Link",
+      "kind": "nav",
+      "refersTo": "pager-link",
+      "description": "Prev/next chapter under an ink hairline; board label + condensed title.",
+      "html": "<nav class=\"ds-pager\" aria-label=\"翻章\"><button type=\"button\" class=\"ds-pager-link ds-pager-prev\"><span class=\"ds-pager-label\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M10 3L5 8l5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>上一章</span><span class=\"ds-pager-title\">Meow</span></button><button type=\"button\" class=\"ds-pager-link ds-pager-next\"><span class=\"ds-pager-label\">下一章<svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M6 3l5 5-5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><span class=\"ds-pager-title\">Oh Man, Mummies!</span></button></nav>",
+      "css": ".ds-pager { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 56px; padding-top: 16px; border-top: 1px solid #15212b; background: #f4f3ee; } .ds-pager-link { display: flex; flex-direction: column; gap: 4px; padding: 8px; border: 0; border-radius: 0.25rem; background: transparent; color: #15212b; cursor: pointer; font-family: \"Barlow Condensed\", \"PingFang SC\", sans-serif; transition: background-color 0.15s ease-out; } .ds-pager-link:hover { background: #e7e6df; } .ds-pager-link:focus-visible { outline: 2px solid #5b7182; outline-offset: 2px; } .ds-pager-next { align-items: flex-end; text-align: right; } .ds-pager-label { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #56616a; } .ds-pager-title { font-size: 20px; font-weight: 600; line-height: 1.25; }"
+    },
+    {
+      "name": "Reading Line",
+      "kind": "custom",
+      "refersTo": "bookmark-tab",
+      "description": "Bilingual reading line: English serif, quieter Chinese, optional kept tab.",
+      "html": "<article class=\"ds-content\"><p class=\"ds-content-line\"><span class=\"ds-en\">Jack and Annie looked at the tree house.</span><span class=\"ds-zh\">杰克和安妮看着树屋。</span></p><p class=\"ds-content-line\"><span class=\"ds-en\">It was almost time for lunch.<button type=\"button\" class=\"ds-fav-btn ds-fav-btn-on\" aria-pressed=\"true\"><svg viewBox=\"0 0 12 16\" aria-hidden=\"true\"><path d=\"M1.5 1.5h9v13L6 11l-4.5 3.5z\"/></svg></button></span><span class=\"ds-zh\">快到午饭时间了。</span></p></article>",
+      "css": ".ds-content { max-width: 66ch; font-family: Charter, \"Iowan Old Style\", Georgia, serif; font-size: 18px; line-height: 1.7; color: #15212b; background: #f4f3ee; } .ds-content-line { margin: 0 0 1.05em; } .ds-en, .ds-zh { display: block; } .ds-zh { font-family: \"PingFang SC\", \"Hiragino Sans GB\", sans-serif; font-size: 0.8em; line-height: 1.75; color: #56616a; margin-top: 0.2em; } .ds-fav-btn { display: inline-flex; align-items: center; justify-content: center; width: 0.8em; height: 1.1em; margin-left: 0.15em; padding: 0; border: 0; background: none; vertical-align: -0.12em; color: #15212b; opacity: 1; cursor: pointer; } .ds-fav-btn svg { width: 0.62em; height: 0.82em; fill: #f4c21b; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round; } .ds-fav-btn:focus-visible { outline: 2px solid #5b7182; outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Departure Timetable",
+    "overview": "Every book is a departure whose time already lives in its title. The viewer is an ink timetable wrapped around a calm reading column — not a generic e-reader with a grey sidebar, white page, and blue accent. Signage lives on the dark board; English reading lives on cool timetable stock.\n\nDensity stays timetable-tight in chrome (condensed caps, tabular figures, four-column rows) and book-calm in the column (serif English, quiet Chinese underlines). One signal yellow marks only where you are and what you kept. Depth is mostly tonal: ink against stock, with a single soft sticky shadow on the departure board.",
+    "keyCharacteristics": [
+      "Ink frame (#15212b) for sidebar and sticky departure board; stock ground (#f4f3ee) for reading",
+      "Barlow Condensed for all board/signage; Charter/Iowan for English; PingFang for Chinese",
+      "Signal yellow spent only on current position and kept sentences",
+      "Route blue-grey (#5b7182) for the line, focus rings, and reveal borders — never saturated blue",
+      "66ch reading measure; unkept bookmark tabs hidden until hover/focus"
+    ],
+    "rules": [
+      {
+        "name": "The Signal Rarity Rule",
+        "body": "Signal yellow marks only current position and kept sentences. It is never a general accent, link color, or decorative wash.",
+        "section": "colors"
+      },
+      {
+        "name": "The Route-Not-Blue Rule",
+        "body": "Navigation structure uses route blue-grey, not saturated UI blue. Focus, caret, and reveal borders follow --route.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Face Rule",
+        "body": "Board chrome is always Barlow Condensed; reading English is always the serif stack. Do not put reading body in the condensed face, or board titles in the serif.",
+        "section": "typography"
+      },
+      {
+        "name": "The English-First Type Rule",
+        "body": "Chinese is smaller and cooler; it assists and never matches English weight or size.",
+        "section": "typography"
+      },
+      {
+        "name": "The Four-Column Rule",
+        "body": "The book list is always No. | 出发 | 书名 | 收藏. Do not collapse into a single-title list or invent extra columns.",
+        "section": "layout"
+      },
+      {
+        "name": "The Sixty-Six Rule",
+        "body": "Continuous reading stays inside a 66ch measure. Do not full-bleed body prose across the main pane.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Chrome Rule",
+        "body": "Timetable rows and reading surfaces stay flat at rest. Do not add offset card shadows to list rows or paragraph blocks.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Tab-Not-Star Rule",
+        "body": "Kept sentences use the bookmark-tab silhouette. Do not substitute stars, hearts, or pill badges for the keep mark.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do spend signal yellow only on current row/stop/switch and kept tabs or express highlights.",
+      "Do keep the reading column at 66ch with English serif + quieter Chinese beneath.",
+      "Do hide unkept bookmark tabs until hover, focus, or touch affordance.",
+      "Do treat the sticky ink board + stock column as the default chrome/page split."
+    ],
+    "donts": [
+      "Don't use saturated blue, purple gradients, or generic e-reader grey/white/blue accents.",
+      "Don't show idle keep marks in the reading line as permanent grey chrome.",
+      "Don't put continuous body copy in Barlow Condensed or board titles in the reading serif.",
+      "Don't widen the book list beyond the four timetable columns or drop the departure time phrase."
+    ]
+  }
+}

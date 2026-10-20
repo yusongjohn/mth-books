@@ -1,0 +1,319 @@
+@import "tailwindcss" source("./");
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@theme inline {
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+  --font-board: "Barlow Condensed", "PingFang SC", sans-serif;
+  --font-read: Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-zh: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif;
+
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-line: var(--ink-line);
+  --color-board-fg: var(--board-fg);
+  --color-board-muted: var(--board-muted);
+  --color-signal: var(--signal);
+  --color-route: var(--route);
+  --color-ground: var(--ground);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  /* Timetable world: ink frame, timetable-stock ground, one signal yellow. */
+  --ink: #15212b;
+  --ink-2: #1d2b36;
+  --ink-line: #2c3b47;
+  --board-fg: #eef1ee;
+  --board-muted: #a9b5bd;
+  --signal: #f4c21b;
+  --route: #5b7182;
+  --ground: #f4f3ee;
+
+  --background: var(--ground);
+  --foreground: var(--ink);
+  --card: #fbfaf7;
+  --card-foreground: var(--ink);
+  --popover: var(--ink);
+  --popover-foreground: var(--board-fg);
+  --primary: var(--ink);
+  --primary-foreground: var(--board-fg);
+  --secondary: #e7e6df;
+  --secondary-foreground: var(--ink);
+  --muted: #e7e6df;
+  --muted-foreground: #56616a;
+  --accent: #e7e6df;
+  --accent-foreground: var(--ink);
+  --destructive: #b3261e;
+  --border: #d8d7cf;
+  --input: #d8d7cf;
+  --ring: var(--route);
+  --radius: 0.25rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply font-sans;
+    scrollbar-color: #b9bcb6 transparent;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    caret-color: var(--route);
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--signal) 55%, transparent);
+    color: var(--ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--route);
+    outline-offset: 2px;
+  }
+  .dark-frame :focus-visible {
+    outline-color: var(--signal);
+  }
+  .dark-frame {
+    scrollbar-color: var(--ink-line) transparent;
+  }
+}
+
+/* Route line: the chapter stops of the current book. */
+@layer components {
+  .route-wrap {
+    position: relative;
+    height: 22px;
+    margin: 0 11px;
+  }
+  .route-wrap::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 3px;
+    transform: translateY(-50%);
+    background: var(--board-muted);
+    opacity: 0.55;
+  }
+  .route-stop {
+    position: absolute;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    transform: translate(-50%, -50%);
+    border-radius: 999px;
+    border: 3px solid var(--board-muted);
+    background: var(--ink);
+    transition: border-color 0.2s ease-out, background-color 0.2s ease-out;
+  }
+  .route-stop:hover {
+    border-color: var(--board-fg);
+  }
+  .route-stop.passed {
+    background: var(--board-muted);
+  }
+  /* A kept sentence in this chapter: a small signal tick above the stop. */
+  .route-stop.kept::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 4px);
+    width: 3px;
+    height: 7px;
+    transform: translateX(-50%);
+    background: var(--signal);
+  }
+  .route-stop.kept.here::after {
+    bottom: calc(100% + 11px);
+  }
+  .route-here {
+    position: absolute;
+    top: 50%;
+    width: 22px;
+    height: 22px;
+    transform: translate(-50%, -50%);
+    border-radius: 999px;
+    background: var(--signal);
+    box-shadow: 0 0 0 4px var(--ink);
+    pointer-events: none;
+    transition: left 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .route-here {
+      transition: none;
+    }
+  }
+
+  .time-phrase {
+    font-family: var(--font-board);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--board-fg);
+  }
+}
+
+/* Chapter HTML (sanitized, injected): styled by structure, not by Tailwind classes. */
+@layer components {
+  .content {
+    font-family: var(--font-read);
+    line-height: 1.7;
+    color: var(--ink);
+  }
+  .content p {
+    margin: 0;
+  }
+  .content p.line {
+    margin: 0 0 1.05em;
+  }
+  .content .en,
+  .content .zh {
+    display: block;
+  }
+  .content .zh {
+    font-family: var(--font-zh);
+    font-size: 0.8em;
+    line-height: 1.75;
+    color: var(--muted-foreground);
+    margin-top: 0.2em;
+  }
+  .content b {
+    font-weight: 700;
+  }
+
+  .content.mode-en .zh,
+  .content.mode-zh .en {
+    display: none;
+  }
+  .content.mode-en p.line,
+  .content.mode-zh p.line {
+    cursor: pointer;
+  }
+  .content.mode-en p.line.revealed .zh,
+  .content.mode-zh p.line.revealed .en {
+    display: block;
+    margin-top: 0.35em;
+    padding-left: 0.75em;
+    border-left: 1px solid var(--route);
+    color: var(--muted-foreground);
+  }
+
+  /* The kept mark: a bookmark tab after each sentence. */
+  .content .fav-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.8em;
+    height: 1.1em;
+    margin-left: -0.05em;
+    padding: 0;
+    border: 0;
+    background: none;
+    vertical-align: -0.12em;
+    color: #9aa1a3;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: opacity 0.15s ease-out, color 0.15s ease-out;
+  }
+  .content .fav-btn svg {
+    width: 0.62em;
+    height: 0.82em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.4;
+    stroke-linejoin: round;
+  }
+  /* Unkept tabs stay out of the reading line until the reader reaches for them. */
+  .content p.line:hover .fav-btn {
+    opacity: 0.5;
+  }
+  .content .cue:hover > .fav-btn,
+  .content .fav-btn:focus-visible {
+    opacity: 1;
+    color: var(--ink);
+  }
+  @media (hover: none) {
+    .content .fav-btn {
+      opacity: 0.3;
+    }
+  }
+  .content .fav-btn.on {
+    margin-left: 0.15em;
+    opacity: 1;
+    color: var(--ink);
+  }
+  .content .fav-btn.on svg {
+    fill: var(--signal);
+  }
+
+  /* Express (只看收藏): kept sentences stay lit, everything else is disabled. */
+  /* Express: kept sentences keep full ink and grow a little; the rest are only lighter. */
+  .content.only-favorites .en .cue:not(.is-fav) {
+    color: #8a9298;
+  }
+  .content.only-favorites .zh .cue:not(.is-fav) {
+    color: #a7adb0;
+  }
+  .content.only-favorites .cue.is-fav {
+    font-size: 1.12em;
+  }
+  .content .cue {
+    transition: color 0.2s ease-out, font-size 0.2s ease-out;
+  }
+
+  .content blockquote.fact {
+    margin: 1.6em 0;
+    padding: 0.9em 1.1em;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    background: var(--card);
+    font-size: 0.92em;
+  }
+  .content .figure-with-note {
+    margin: 1.6em 0;
+    text-align: center;
+  }
+  .content .figure-with-note img,
+  .content .figure-image img {
+    max-width: 100%;
+    border-radius: 2px;
+  }
+  .content .missing-image img {
+    display: none;
+  }
+  .content .figure-note {
+    font-family: var(--font-board);
+    font-size: 0.78em;
+    letter-spacing: 0.03em;
+    color: var(--muted-foreground);
+  }
+  .content .pagebreak {
+    height: 1px;
+  }
+}

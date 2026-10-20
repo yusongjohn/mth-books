@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Timetable sketch</title>
+<style>
+  :root{--ground:#f4f3ee;--ink:#15212b;--sig:#f4c21b;--line:#2e5c8a;--rule:#d6d6cf;--muted:#5f6a72}
+  *{box-sizing:border-box}body{margin:0;width:1440px;height:900px;background:var(--ground);color:var(--ink);font-family:-apple-system,"Helvetica Neue","PingFang SC",sans-serif;display:grid;grid-template-columns:340px 1fr;overflow:hidden}
+  aside{background:var(--ink);color:#e9ece8;padding:28px 0}
+  aside h1{font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin:0 24px 18px;color:var(--sig)}
+  .row{display:grid;grid-template-columns:36px 104px 1fr;gap:8px;padding:9px 24px;font-size:14px;border-top:1px solid #26333d;font-variant-numeric:tabular-nums}
+  .row .t{color:var(--sig);text-transform:uppercase;font-size:12px;letter-spacing:.06em;padding-top:2px}
+  .row.on{background:var(--sig);color:var(--ink)}.row.on .t{color:var(--ink)}
+  main{display:flex;flex-direction:column}
+  .board{background:var(--ink);color:#fff;padding:20px 56px 18px;display:flex;flex-direction:column;gap:14px}
+  .board .meta{display:flex;justify-content:space-between;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#c8cdd0}
+  .board .meta b{color:var(--sig)}
+  .board h2{margin:0;font-size:40px;font-weight:600;letter-spacing:-.01em}
+  .route{display:flex;align-items:center;gap:0;margin-top:4px}
+  .stop{width:14px;height:14px;border-radius:50%;border:3px solid #9fb0bd;background:var(--ink)}
+  .stop.done{background:#9fb0bd}.stop.here{width:22px;height:22px;background:var(--sig);border-color:var(--sig)}
+  .seg{flex:1;height:3px;background:#9fb0bd}
+  .col{width:680px;margin:40px auto 0;font-family:Charter,"Iowan Old Style",Georgia,serif;font-size:21px;line-height:1.7}
+  .col p{margin:0 0 22px}.col .zh{display:block;font-family:"PingFang SC",sans-serif;font-size:15px;color:var(--muted);line-height:1.6}
+  .tab{display:inline-block;width:10px;height:16px;background:var(--sig);vertical-align:-2px;margin-left:6px}
+  .fav{box-shadow:inset 0 -0.42em 0 rgba(244,194,27,.45)}
+</style></head><body>
+<aside><h1>Departures · 55</h1>
+<div class="row"><span>01</span><span class="t">Before Dark</span><span>Dinosaurs</span></div>
+<div class="row"><span>02</span><span class="t">At Dawn</span><span>The Knight</span></div>
+<div class="row on"><span>03</span><span class="t">In the Morning</span><span>Mummies</span></div>
+<div class="row"><span>04</span><span class="t">Past Noon</span><span>Pirates</span></div>
+<div class="row"><span>05</span><span class="t">Night</span><span>Night of the Ninjas</span></div>
+<div class="row"><span>06</span><span class="t">Afternoon</span><span>On the Amazon</span></div>
+<div class="row"><span>07</span><span class="t">Sunset</span><span>Of the Sabertooth</span></div>
+<div class="row"><span>08</span><span class="t">Midnight</span><span>On the Moon</span></div>
+<div class="row"><span>09</span><span class="t">At Daybreak</span><span>Dolphins</span></div>
+<div class="row"><span>10</span><span class="t">At Sundown</span><span>Ghost Town</span></div>
+</aside>
+<main>
+<div class="board">
+  <div class="meta"><span>No. 03 · Mummies in the Morning</span><span>Stop <b>1</b> of 10 · 中英</span></div>
+  <h2>Meow!</h2>
+  <div class="route"><span class="stop here"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span><span class="seg"></span><span class="stop"></span></div>
+</div>
+<div class="col">
+  <p>“It’s still here,” said Jack.<span class="zh">“它还在这儿，”杰克说。</span></p>
+  <p>Jack and his seven-year-old sister gazed up at a very tall oak tree. At the top of the tree was a tree house.<span class="zh">杰克和他七岁的妹妹抬头望着一棵很高很高的橡树。树顶上有一座树屋。</span></p>
+  <p><span class="fav">Late-morning sunlight lit the woods.</span><span class="tab"></span> It was almost time for lunch.<span class="zh">快到中午的阳光照着树林。快到吃午饭的时间了。</span></p>
+</div>
+</main></body></html>
