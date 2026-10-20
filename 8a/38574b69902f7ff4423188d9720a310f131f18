@@ -1,0 +1,190 @@
+.impeccable/mocks/decision/assigned.html
+  s_b36eb6fffdd20a::t_8a7874c4027333 1-48
+.gitignore
+  s_b36eb6fffdd20a::t_4a716b5b862688 13
+  s_b36eb6fffdd20a::t_b77e841c06662c 12
+viewer/scripts/export-favorites.mjs
+  s_b36eb6fffdd20a::t_8bf2977e41de33 1-6,8-9
+  s_b36eb6fffdd20a::t_89abbef454f4a8 7
+viewer/src/styles.css
+  s_b36eb6fffdd20a::t_db5b48099f7eb1 53
+  s_b36eb6fffdd20a::t_f89b381623a330 277-278,280-281,286
+  s_b36eb6fffdd20a::t_d81cacb0a8f242 252-255,260-264
+  s_b36eb6fffdd20a::t_20b00de365f65f 177
+  s_b36eb6fffdd20a::t_d7a63dc0313b70 239
+  s_b36eb6fffdd20a::t_ebcd6974751c2a 231,233
+  s_b36eb6fffdd20a::t_dac8f87521bbd9 267
+  s_b36eb6fffdd20a::t_7d70abddbfc5c7 276,283-285,287
+  s_b36eb6fffdd20a::t_d35b68985a133b 1
+  s_b36eb6fffdd20a::t_ec43b3a1b88e67 43-44
+  s_b36eb6fffdd20a::t_f06184f31e0fcf 151-153
+  s_b36eb6fffdd20a::t_1e2ee93b424730 6-42,46-52,54-75,79-80,83-150,154-168,170-176,178-222,224-230,232,234-238,240-251,256-259,265-266,268-275,279,282,288-319
+  s_b36eb6fffdd20a::t_c33009837b2cbd 223
+  s_b36eb6fffdd20a::t_c34b638a9bd594 169
+  s_b36eb6fffdd20a::t_d8df2c180e5cd0 2-5
+  s_b36eb6fffdd20a::t_7baaea06b611cf 45
+  s_b36eb6fffdd20a::t_8890dcc2ca6b6c 76-78
+  s_b36eb6fffdd20a::t_462cfbdc03579a 81-82
+.impeccable/review/capture.mjs
+  s_b36eb6fffdd20a::t_2fe9fc19303036 1-77
+viewer/vite.config.ts
+  s_b36eb6fffdd20a::t_a1e2b8e7ff1226 21-26
+  s_b36eb6fffdd20a::t_5c11e2e89f6559 1-2,4-8,15-20,27-28
+  s_b36eb6fffdd20a::t_3aa1ea322b96c7 3,9-14
+viewer/scripts/import-favorites.mjs
+  s_b36eb6fffdd20a::t_42b0b03b0c404a 1-10
+  s_b36eb6fffdd20a::t_438094e8c3cefe 11
+viewer/src/books.ts
+  s_b36eb6fffdd20a::t_63bc1e452cb00f 57-58
+  s_b36eb6fffdd20a::t_a91f0a45f95c2b 1-16,19,35-56,59-68
+  s_b36eb6fffdd20a::t_68a1efd8301476 17-18,20-34
+.impeccable/design.json
+  s_5914cf2f06990b::t_0a5928b9285d6b 1-252,254-257,259-267,269-284
+  s_5914cf2f06990b::t_9839fd0bb25f95 253,258,268
+.impeccable/questions/direction.json
+  s_b36eb6fffdd20a::t_c675a70741c3f2 1-135
+viewer/package.json
+  s_b36eb6fffdd20a::t_a572e9bdf801f5 1-6,10,14-20,22-34
+  s_b36eb6fffdd20a::t_a562e60ff59691 21
+  s_b36eb6fffdd20a::t_05fec574a46033 7-9,11-13
+  s_b36eb6fffdd20a::t_5c655cec5f9cf4 35-46
+viewer/src/vite-env.d.ts
+  s_b36eb6fffdd20a::t_5f2f40b184cd77 1
+viewer/src/db.ts
+  s_b36eb6fffdd20a::t_7fe0bd61f48496 1-9,23-24,28-30,33-41,47-49,51
+  s_b36eb6fffdd20a::t_3d73b937f628f8 10-22,25-27,31-32,42-46,50
+.impeccable/surfaces/viewer-src-app-tsx.md
+  s_b36eb6fffdd20a::t_f5ed1c531ea30d 1-26
+viewer/src/components/ui/scroll-area.tsx
+  s_b36eb6fffdd20a::t_21c276237343ab 47
+  s_b36eb6fffdd20a::t_e3999b51244788 44-46
+  s_b36eb6fffdd20a::t_ff9d9f41e92cfd 48-50
+viewer/.gitignore
+  s_b36eb6fffdd20a::t_25c6e31f614981 1-2
+favorites.json
+  s_b36eb6fffdd20a::t_67f3cf28789aca 3-4
+viewer/tsconfig.json
+  s_b36eb6fffdd20a::t_fb666785771055 18-22
+  s_b36eb6fffdd20a::t_27fe3c58d67e42 1-17,23-25
+viewer/scripts/fix-loose-inline.mjs
+  s_b36eb6fffdd20a::t_191a0c20ac49d6 2-3,13-14,16,19-20,26-27,35,53,55,58,61-64,91,117-122,124,130-142,145,148-150,168,176-182
+  s_b36eb6fffdd20a::t_55407a9a7a64e5 12
+  s_b36eb6fffdd20a::t_b31ae1ca005878 89
+  s_b36eb6fffdd20a::t_a409ecc352fea0 93-94
+  s_b36eb6fffdd20a::t_1c337334868ed9 127-129
+  s_b36eb6fffdd20a::t_30476c3581804b 106-116,123
+  s_b36eb6fffdd20a::t_5dc7cea49f103c 158
+  s_b36eb6fffdd20a::t_c465fb4de241e8 1,4-11,15,17,28-34,36-48,67,71-88,90,92,95-105,125-126,143-144,146-147,153-157,159-166,183-194
+  s_b36eb6fffdd20a::t_0d065b00bb1025 151-152
+  s_b36eb6fffdd20a::t_07818d4dae646f 167,169-172,174-175
+  s_b36eb6fffdd20a::t_abd6e0fb27e673 49-52,54,56-57,59-60,65-66,68-70
+  s_b36eb6fffdd20a::t_edf9a71d7ae3cb 173
+  s_b36eb6fffdd20a::t_d09e5d6c496f83 18,21-25
+DESIGN.md
+  s_5914cf2f06990b::t_b6fc391b8ca41e 1-238
+viewer/server/db.mjs
+  s_b36eb6fffdd20a::t_3eb27cb5664959 1-21,27-63,65-73,75-78,80-84
+  s_b36eb6fffdd20a::t_1a5b9859c83788 22-26,64,74,79
+viewer/tsconfig.tsbuildinfo
+  s_b36eb6fffdd20a::t_e1b3a495cde2cb 1
+viewer/src/main.tsx
+  s_b36eb6fffdd20a::t_0d7af7f5426340 4-5,12-15
+  s_b36eb6fffdd20a::t_f3cb4450922ee0 6-7
+  s_b36eb6fffdd20a::t_36b926ba8661e4 1-3,8-11,16-17
+.impeccable/mocks/decision/model-pick.html
+  s_b36eb6fffdd20a::t_7a48204f0ed074 1-25
+PRODUCT.md
+  s_b36eb6fffdd20a::t_40817c43382b2c 1-47
+viewer/server/index.mjs
+  s_b36eb6fffdd20a::t_143993b2957dee 1-2,4-8,10-54,60-63,65
+  s_b36eb6fffdd20a::t_f0f280964c7360 64
+  s_b36eb6fffdd20a::t_46b0f3edf7deb4 3,9,55-59
+viewer/index.html
+  s_b36eb6fffdd20a::t_09120366972c2c 1-12
+viewer/src/components/ui/sonner.tsx
+  s_b36eb6fffdd20a::t_a61b9e12abbbbd 6
+  s_b36eb6fffdd20a::t_ffc82b2366a736 3-5
+  s_b36eb6fffdd20a::t_5a9bab3a1632b6 7-9
+viewer/src/favorites.ts
+  s_b36eb6fffdd20a::t_6e0c5665ae3f42 2,38-43,62,64-65
+  s_b36eb6fffdd20a::t_598f6c910175cf 63
+  s_b36eb6fffdd20a::t_f663e2532b8612 44,50-59
+  s_b36eb6fffdd20a::t_6b28427e17b0ff 11-23
+  s_b36eb6fffdd20a::t_7a56e099942b7f 1,3-8,24-33,35-37,45-49
+  s_b36eb6fffdd20a::t_92cd95774ae5ab 9-10,60-61
+  s_b36eb6fffdd20a::t_672d8eac821874 34
+viewer/src/App.tsx
+  s_b36eb6fffdd20a::t_fae7482a8e5da4 445
+  s_b36eb6fffdd20a::t_9af51cb9ac45eb 446,454-459
+  s_b36eb6fffdd20a::t_a5d0b86829ece1 265
+  s_b36eb6fffdd20a::t_f9c38e52bc0159 513
+  s_b36eb6fffdd20a::t_24dba1484da360 1-2,22-23,25-30,32-34,36-40,43-58,86-94,99-100,127-165,167-169,172-180,186-207,255-256,258-264,266,613
+  s_b36eb6fffdd20a::t_f0dac116c07ffd 6-11,59-63,71-72,95-98,101-117,120-126,170-171,181-182,184,228-237,253-254,257
+  s_b36eb6fffdd20a::t_b1eb8109475d61 31
+  s_b36eb6fffdd20a::t_131adc7fd1c156 118-119
+  s_b36eb6fffdd20a::t_e24e72293b3dda 431-432,436
+  s_b36eb6fffdd20a::t_e8b8e7fb66f37f 336-338,344-352
+  s_b36eb6fffdd20a::t_9adc60b5d23299 467
+  s_b36eb6fffdd20a::t_eddce7f92407f5 469
+  s_b36eb6fffdd20a::t_0a393c4b4e57fa 66
+  s_b36eb6fffdd20a::t_e9acfea98bd180 275
+  s_b36eb6fffdd20a::t_ab9103c5f53f78 523-526
+  s_b36eb6fffdd20a::t_e7ae7cbbed6e39 541
+  s_b36eb6fffdd20a::t_24a32ea1d5e643 267-269,271,273-274,281-282,295,411,414,420-421,427-428,438,440-443,450-452,460,465,482,484,491-493,495-496,501-503,505-506,508,519-522,534,538-539,542-545,547,554-557,564-567,571,590,599-601,603-604,606,608,610-612
+  s_b36eb6fffdd20a::t_337492b27373ba 3-5,12-21,73-80,83-85,166,208-214,224-227,238-252,270,272,276-280,283-294,296-317,319,322-335,339-343,353-360,362-375,388-410,412-413,415-419,422-426,429-430,434-435,437,439,444,447-449,453,461-464,466,468,470-481,483,485-490,494,497-500,504,507,509-512,514-518,527-533,535-537,540,546,548-553,558-563,568-570,572-589,591-598,602,605,607,609
+  s_b36eb6fffdd20a::t_dae4cfd69a9bb3 81
+  s_b36eb6fffdd20a::t_4a6093ce472a68 24,183,185
+  s_b36eb6fffdd20a::t_1561d56f8e170c 35,41-42
+  s_b36eb6fffdd20a::t_28b8c1c5706e79 64-65,67-70
+  s_b36eb6fffdd20a::t_1d5a6456a5f272 82
+  s_b36eb6fffdd20a::t_10eee3e1ea8f21 318,320-321
+  s_b36eb6fffdd20a::t_6032cc48f15b02 361,376-387
+  s_b36eb6fffdd20a::t_723154c9fcc5f4 215-223
+  s_b36eb6fffdd20a::t_eae1ad1bb9aa1e 433
+.impeccable/questions/brief-body.md
+  s_b36eb6fffdd20a::t_17c0e831525405 1-19
+viewer/components.json
+  s_b36eb6fffdd20a::t_c6d3c01ad77871 1-25
+viewer/package-lock.json
+  s_b36eb6fffdd20a::t_04e7f41e422ad7 1-6159
+viewer/src/components/ui/button.tsx
+  s_b36eb6fffdd20a::t_5a004a4a85be9e 1-57
+viewer/src/components/ui/input.tsx
+  s_b36eb6fffdd20a::t_e290f7294db3ef 1-19
+viewer/src/components/ui/separator.tsx
+  s_b36eb6fffdd20a::t_fec55af272b9a1 1-22
+viewer/src/components/ui/tabs.tsx
+  s_b36eb6fffdd20a::t_2f9fbf25554cea 1-79
+viewer/src/components/ui/toggle-group.tsx
+  s_b36eb6fffdd20a::t_65d9e8069fe72e 1-87
+viewer/src/components/ui/toggle.tsx
+  s_b36eb6fffdd20a::t_f247df4f9a2cc3 1-44
+viewer/src/components/ui/tooltip.tsx
+  s_b36eb6fffdd20a::t_1da2306ac6749e 1-63
+viewer/src/lib/utils.ts
+  s_b36eb6fffdd20a::t_06e6b46d6b2bd9 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "8a38574b69902f7ff4423188d9720a310f131f18",
+  "prompts": {},
+  "sessions": {
+    "s_5914cf2f06990b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "77d201f5-4110-44b7-ad2a-461c1daf94af",
+        "model": "default"
+      },
+      "human_author": "song yu <song.yu@zoom.us>"
+    },
+    "s_b36eb6fffdd20a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "988e5bff-a945-4332-ac9a-82c11cf192b2",
+        "model": "default"
+      },
+      "human_author": "song yu <song.yu@zoom.us>"
+    }
+  }
+}
