@@ -1,7 +1,807 @@
 {
   "version": 1,
-  "exportedAt": "2026-10-21T06:44:14.288Z",
+  "exportedAt": "2026-10-21T10:28:03.348Z",
   "sentences": [
+    {
+      "sid": "b04c06-s007",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "06-the-whales-eye",
+      "enText": "“Or we’ll be meat for those evil brutes!”",
+      "zhText": "“不然我们就成那些坏东西的晚餐了！”",
+      "createdAt": 1792578091572
+    },
+    {
+      "sid": "b04c06-s004",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "06-the-whales-eye",
+      "enText": "Salty spray stung Jack’s eyes. He felt seasick.",
+      "zhText": "咸咸的浪花刺痛杰克的眼睛。他觉得晕船了。",
+      "createdAt": 1792578061431
+    },
+    {
+      "sid": "b04c06-s002",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "06-the-whales-eye",
+      "enText": "The rowboat tossed from side to side.",
+      "zhText": "小船左右摇晃。",
+      "createdAt": 1792578050535
+    },
+    {
+      "sid": "b04c05-s062",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Pinky and Stinky began rowing toward the big ship.",
+      "zhText": "平奇和臭臭开始朝大船划去。",
+      "createdAt": 1792577731040
+    },
+    {
+      "sid": "b04c05-s059",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "The sky ahead was dark with thunderclouds.",
+      "zhText": "前方的天空乌云密布。",
+      "createdAt": 1792577715499
+    },
+    {
+      "sid": "b04c05-s058",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Waves splashed the sides.",
+      "zhText": "浪花拍打着船帮。",
+      "createdAt": 1792577708624
+    },
+    {
+      "sid": "b04c05-s057",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Jack and Annie were tossed into the rowboat.",
+      "zhText": "杰克和安妮被扔进了小船。",
+      "createdAt": 1792577701937
+    },
+    {
+      "sid": "b04c05-s056",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“They can rot there till they’re ready to tell us how to find Kidd’s treasure!”",
+      "zhText": "“让他们在那儿待着发霉，直到愿意告诉我们怎么找到基德的宝藏！”",
+      "createdAt": 1792577656826
+    },
+    {
+      "sid": "b04c05-s046",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Aye, lubber.",
+      "zhText": "“好，旱鸭子。",
+      "createdAt": 1792577612243
+    },
+    {
+      "sid": "b04c05-s041",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Cap’n Bones gave Jack and Annie a dark look.",
+      "zhText": "骨头船长阴沉地看了杰克和安妮一眼。",
+      "createdAt": 1792577594575
+    },
+    {
+      "sid": "b04c05-s038",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Jack and I can read,” Annie piped up.",
+      "zhText": "“杰克和我会认字。”安妮插嘴说。",
+      "createdAt": 1792577580892
+    },
+    {
+      "sid": "b04c05-s035",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Aw, leave him alone,” Pinky growled at Jack.",
+      "zhText": "“哎呀，别为难他了。”平奇冲杰克低吼。",
+      "createdAt": 1792577578750
+    },
+    {
+      "sid": "b04c05-s032",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Well, it means … ” Cap’n Bones’ good eye squinted at the writing. He frowned.",
+      "zhText": "“这个嘛，意思是……”骨头船长那只好眼睛眯起来看那些字。他皱起眉头。",
+      "createdAt": 1792577552476
+    },
+    {
+      "sid": "b04c05-s027",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Jack stared at the strange marks on the paper.",
+      "zhText": "杰克盯着纸上那些奇怪的记号。",
+      "createdAt": 1792577516826
+    },
+    {
+      "sid": "b04c05-s026",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“You read it!” Cap’n Bones shoved the map in Jack’s face.",
+      "zhText": "“你来念！”骨头船长把地图怼到杰克脸上。",
+      "createdAt": 1792577508227
+    },
+    {
+      "sid": "b04c05-s017",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "He reached into a belt pouch and pulled out a torn piece of paper.",
+      "zhText": "他伸进腰带上的袋子，掏出一张撕破的纸。",
+      "createdAt": 1792577401023
+    },
+    {
+      "sid": "b04c05-s012",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Tell old Bones where the rest is,” he growled.",
+      "zhText": "“告诉老骨头，剩下的在哪儿。”他低吼。",
+      "createdAt": 1792577380547
+    },
+    {
+      "sid": "b04c05-s013",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Or prepare to meet thy doom.”",
+      "zhText": "“不然就等着完蛋吧。”",
+      "createdAt": 1792577378815
+    },
+    {
+      "sid": "b04c05-s011",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Cap’n Bones grinned his black-toothed grin.",
+      "zhText": "骨头船长咧开黑牙笑了。",
+      "createdAt": 1792577361705
+    },
+    {
+      "sid": "b04c05-s009",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "“Not another step, lubbers!”",
+      "zhText": "“再敢走一步试试，旱鸭子！”",
+      "createdAt": 1792577349798
+    },
+    {
+      "sid": "b04c05-s008",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "He aimed his pistols at them.",
+      "zhText": "他把枪口对准他们。",
+      "createdAt": 1792577346665
+    },
+    {
+      "sid": "b04c05-s004",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Jack nudged Annie.",
+      "zhText": "杰克轻轻碰了碰安妮。",
+      "createdAt": 1792577334743
+    },
+    {
+      "sid": "b04c05-s003",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "The gold-greedy pirates seemed to have lost their minds.",
+      "zhText": "这些贪金子的海盗好像疯了一样。",
+      "createdAt": 1792577331485
+    },
+    {
+      "sid": "b04c05-s002",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "05-the-kids-treasure",
+      "enText": "Jack and Annie watched in horror.",
+      "zhText": "杰克和安妮吓得看着。",
+      "createdAt": 1792577322786
+    },
+    {
+      "sid": "b04c04-s068",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "Cap’n Bones threw back his head and laughed horribly.",
+      "zhText": "骨头船长把头往后一仰，发出可怕的大笑。",
+      "createdAt": 1792577260577
+    },
+    {
+      "sid": "b04c04-s065",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "He caught the medallion as it fell.",
+      "zhText": "徽章掉下来时，他一把接住。",
+      "createdAt": 1792577245745
+    },
+    {
+      "sid": "b04c04-s055",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "A gleeful shriek pierced the air.",
+      "zhText": "一声高兴的尖叫刺破了空气。",
+      "createdAt": 1792577201107
+    },
+    {
+      "sid": "b04c04-s054",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "“That’s vile booty!”",
+      "zhText": "“这战利品恶心死了！”",
+      "createdAt": 1792577173265
+    },
+    {
+      "sid": "b04c04-s035",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "“What do you spy, Pinky?” shouted Cap’n Bones.",
+      "zhText": "“看见什么了，平奇？”骨头船长喊道。",
+      "createdAt": 1792577132591
+    },
+    {
+      "sid": "b04c04-s032",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "“Find out what’s in their house, you dogs,” he said.",
+      "zhText": "“去看看他们屋里有什么，你们这些狗东西。”他说。",
+      "createdAt": 1792577062100
+    },
+    {
+      "sid": "b04c04-s029",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "Annie fell silent.",
+      "zhText": "安妮不说话了。",
+      "createdAt": 1792577033433
+    },
+    {
+      "sid": "b04c04-s023",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "And with his giant hands, he held Jack and Annie as if they were two kittens.",
+      "zhText": "他那双大手抓着杰克和安妮，就像抓着两只小猫。",
+      "createdAt": 1792576544912
+    },
+    {
+      "sid": "b04c04-s021",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "But the pirate just growled.",
+      "zhText": "可那个海盗只是低吼了一声。",
+      "createdAt": 1792576534383
+    },
+    {
+      "sid": "b04c04-s020",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "She hit the pirate with her fist and kicked him.",
+      "zhText": "她挥拳打他，还踢他。",
+      "createdAt": 1792576523651
+    },
+    {
+      "sid": "b04c04-s018",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "Annie charged up to the biggest pirate.",
+      "zhText": "安妮冲到那个最大的海盗面前。",
+      "createdAt": 1792576513677
+    },
+    {
+      "sid": "b04c04-s017",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "They were dirty and ragged.",
+      "zhText": "他们又脏又破。",
+      "createdAt": 1792576506852
+    },
+    {
+      "sid": "b04c04-s016",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "The other two pirates laughed meanly.",
+      "zhText": "另外两个海盗阴狠狠地笑着。",
+      "createdAt": 1792576504555
+    },
+    {
+      "sid": "b04c04-s015",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "“Leave him alone, you bully!” she cried.",
+      "zhText": "“放开他，你这个坏蛋！”她喊道。",
+      "createdAt": 1792576499251
+    },
+    {
+      "sid": "b04c04-s010",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "A patch covered one eye.",
+      "zhText": "一只眼睛上蒙着眼罩。",
+      "createdAt": 1792576477401
+    },
+    {
+      "sid": "b04c04-s009",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "He had a shaggy black beard.",
+      "zhText": "他留着乱蓬蓬的黑胡子。",
+      "createdAt": 1792576466244
+    },
+    {
+      "sid": "b04c04-s008",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "He held on to Jack and laughed a mean, ugly laugh.",
+      "zhText": "他抓着杰克，发出难听又凶狠的笑声。",
+      "createdAt": 1792576464089
+    },
+    {
+      "sid": "b04c04-s006",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "Jack struggled.",
+      "zhText": "杰克拼命挣扎。",
+      "createdAt": 1792576450598
+    },
+    {
+      "sid": "b04c04-s005",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "Before Jack knew it, the biggest pirate had grabbed him!",
+      "zhText": "杰克还没反应过来，那个最大的海盗已经抓住他了！",
+      "createdAt": 1792576446895
+    },
+    {
+      "sid": "b04c04-s003",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "04-vile-booty",
+      "enText": "He ran as fast as he could.",
+      "zhText": "他拼命跑。",
+      "createdAt": 1792576441147
+    },
+    {
+      "sid": "b04c03-s065",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "They charged toward Jack.",
+      "zhText": "他们朝杰克冲过来。",
+      "createdAt": 1792576346958
+    },
+    {
+      "sid": "b04c03-s064",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "They had pistols in their belts.",
+      "zhText": "腰带上别着手枪。",
+      "createdAt": 1792576345553
+    },
+    {
+      "sid": "b04c03-s063",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "They had knives in their teeth.",
+      "zhText": "他们牙齿里咬着刀。",
+      "createdAt": 1792576338506
+    },
+    {
+      "sid": "b04c03-s062",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "Three big pirates splashed onto the sand.",
+      "zhText": "三个大块头海盗踩着水上了沙滩。",
+      "createdAt": 1792576333607
+    },
+    {
+      "sid": "b04c03-s060",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "Suddenly a giant wave carried the rowboat right onto the beach.",
+      "zhText": "忽然，一个大浪把小船直接冲上了沙滩。",
+      "createdAt": 1792576326466
+    },
+    {
+      "sid": "b04c03-s049",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "It was still propped in the sand.",
+      "zhText": "书还支在沙子上。",
+      "createdAt": 1792576304181
+    },
+    {
+      "sid": "b04c03-s048",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "In all the confusion he had forgotten it.",
+      "zhText": "这一通忙乱，他把它给忘了。",
+      "createdAt": 1792576299453
+    },
+    {
+      "sid": "b04c03-s038",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "He snatched them up.",
+      "zhText": "他一把抓起来。",
+      "createdAt": 1792576201791
+    },
+    {
+      "sid": "b04c03-s035",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "Jack saw something glinting in the sand.",
+      "zhText": "杰克看见沙子里有东西在闪光。",
+      "createdAt": 1792576198624
+    },
+    {
+      "sid": "b04c03-s033",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "Jack went down on his knees.",
+      "zhText": "杰克跪了下去。",
+      "createdAt": 1792576180888
+    },
+    {
+      "sid": "b04c03-s027",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "He saw the rowboat coming toward the shore.",
+      "zhText": "他看见小船正朝岸边划来。",
+      "createdAt": 1792576161152
+    },
+    {
+      "sid": "b04c03-s021",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "“Jack, some pirates are getting into a rowboat,” said Annie.",
+      "zhText": "“杰克，有几个海盗正在上小船。”安妮说。",
+      "createdAt": 1792576151793
+    },
+    {
+      "sid": "b04c03-s016",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "He propped the pirate book in the sand.",
+      "zhText": "他把海盗书支在沙子上。",
+      "createdAt": 1792576104228
+    },
+    {
+      "sid": "b04c03-s005",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "Jack flipped to the picture that showed the parrot, the sea and the ship.",
+      "zhText": "杰克翻到那页画着鹦鹉、大海和船的图画。",
+      "createdAt": 1792575974096
+    },
+    {
+      "sid": "b04c03-s003",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "“Pirates?” squeaked Annie.",
+      "zhText": "“海盗？”安妮尖声说。",
+      "createdAt": 1792575966146
+    },
+    {
+      "sid": "b04c03-s002",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "03-three-men-in-a-boat",
+      "enText": "“We’ve come to the time of pirates!” Jack said.",
+      "zhText": "“我们来到海盗的时代了！”杰克说。",
+      "createdAt": 1792572973296
+    },
+    {
+      "sid": "b04c02-s063",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "For the first time, he and Annie read the title of the book.",
+      "zhText": "他和安妮第一次看清了书名。",
+      "createdAt": 1792569122326
+    },
+    {
+      "sid": "b04c02-s059",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "She splashed after him.",
+      "zhText": "她踩着水跟上他。",
+      "createdAt": 1792569107800
+    },
+    {
+      "sid": "b04c02-s055",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "With a skull and crossbones.",
+      "zhText": "上面有骷髅头和交叉的骨头。",
+      "createdAt": 1792569092275
+    },
+    {
+      "sid": "b04c02-s053",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "As he stared at the ship’s flag, a chill went through him.",
+      "zhText": "他盯着那面旗，心里忽然一凉。",
+      "createdAt": 1792569080808
+    },
+    {
+      "sid": "b04c02-s049",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Not on the sunlit sand.",
+      "zhText": "阳光下的沙滩上也没有。",
+      "createdAt": 1792569060375
+    },
+    {
+      "sid": "b04c02-s047",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Jack glanced around. No sign of Polly.",
+      "zhText": "杰克四处看了看。没有波莉的影子。",
+      "createdAt": 1792569055212
+    },
+    {
+      "sid": "b04c02-s043",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "He shielded his eyes against the sun.",
+      "zhText": "他用手挡住阳光。",
+      "createdAt": 1792569042037
+    },
+    {
+      "sid": "b04c02-s039",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Then he rolled up his jeans.",
+      "zhText": "然后把牛仔裤卷起来。",
+      "createdAt": 1792569020881
+    },
+    {
+      "sid": "b04c02-s036",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "“They’ll dry out,” she said.",
+      "zhText": "“会干的。”她说。",
+      "createdAt": 1792568968471
+    },
+    {
+      "sid": "b04c02-s032",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Jack watched her wade into the water.",
+      "zhText": "杰克看着她走进水里。",
+      "createdAt": 1792568804785
+    },
+    {
+      "sid": "b04c02-s031",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "As soon as Annie hit the sand, she ran toward the ocean.",
+      "zhText": "安妮脚一踩到沙子，就朝大海跑去。",
+      "createdAt": 1792568770744
+    },
+    {
+      "sid": "b04c02-s028",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Jack folded the raincoat and put it next to the stack of books.",
+      "zhText": "杰克把雨衣叠好，放在那摞书旁边。",
+      "createdAt": 1792568760837
+    },
+    {
+      "sid": "b04c02-s021",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Without even looking at the cover, she shoved the book into Jack’s backpack.",
+      "zhText": "她连封面都没看，就把书塞进了杰克的背包。",
+      "createdAt": 1792568728149
+    },
+    {
+      "sid": "b04c02-s013",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Then she swooped down to the ocean.",
+      "zhText": "然后她朝大海俯冲下去。",
+      "createdAt": 1792567351775
+    },
+    {
+      "sid": "b04c02-s002",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "02-the-bright-blue-sea",
+      "enText": "Jack felt hot sunlight streaming into the tree house.",
+      "zhText": "杰克感觉到热乎乎的阳光照进树屋。",
+      "createdAt": 1792567317650
+    },
+    {
+      "sid": "b04c01-s127",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "“Too late!” squawked Polly.",
+      "zhText": "“来晚了！”波莉叫道。",
+      "createdAt": 1792567291547
+    },
+    {
+      "sid": "b04c01-s110",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Sitting on a branch outside the window ledge of the tree house was a green parrot.",
+      "zhText": "树屋窗台外面的树枝上，蹲着一只绿色的鹦鹉。",
+      "createdAt": 1792567196043
+    },
+    {
+      "sid": "b04c01-s111",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Exactly like the parrot in the picture.",
+      "zhText": "跟画里的那只一模一样。",
+      "createdAt": 1792567195225
+    },
+    {
+      "sid": "b04c01-s108",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "“Too late!” came a squawk.",
+      "zhText": "“来晚了！”传来一声尖叫。",
+      "createdAt": 1792567182913
+    },
+    {
+      "sid": "b04c01-s103",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Another gust of rainy wind blew into the tree house.",
+      "zhText": "又一阵夹着雨的风吹进树屋。",
+      "createdAt": 1792567138748
+    },
+    {
+      "sid": "b04c01-s096",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "“Me neither,” said Jack.",
+      "zhText": "“我也不记得。”杰克说。",
+      "createdAt": 1792567121827
+    },
+    {
+      "sid": "b04c01-s095",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "“I don’t remember a book being open.”",
+      "zhText": "“我不记得有书是打开的。”",
+      "createdAt": 1792567112583
+    },
+    {
+      "sid": "b04c01-s088",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Right over the spot where the M glowed faintly in the wood.",
+      "zhText": "正好放在木头上隐隐发亮的那个M上面。",
+      "createdAt": 1792567083175
+    },
+    {
+      "sid": "b04c01-s083",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Who was the M person who had put all the books here?",
+      "zhText": "把这些书放在这儿的M人到底是谁？",
+      "createdAt": 1792567021388
+    },
+    {
+      "sid": "b04c01-s080",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "The Pennsylvania book had brought them back home at the end of each of their adventures.",
+      "zhText": "每次冒险结束，都是这本宾夕法尼亚的书把他们带回家。",
+      "createdAt": 1792567005095
+    },
+    {
+      "sid": "b04c01-s075",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "A black cat had come to the rescue there.",
+      "zhText": "在那儿，一只黑猫救了他们。",
+      "createdAt": 1792566949766
+    },
+    {
+      "sid": "b04c01-s060",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Annie picked up a castle book on top of one stack.",
+      "zhText": "安妮拿起一摞书最上面那本城堡书。",
+      "createdAt": 1792566800413
+    },
+    {
+      "sid": "b04c01-s058",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "They were all neatly stacked along the wall.",
+      "zhText": "它们整整齐齐地靠墙码着。",
+      "createdAt": 1792566741992
+    },
+    {
+      "sid": "b04c01-s059",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Just the way they had been the day before.",
+      "zhText": "跟昨天一模一样。",
+      "createdAt": 1792566728451
+    },
+    {
+      "sid": "b04c01-s056",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Inside the tree house it was chilly and damp.",
+      "zhText": "树屋里又冷又潮。",
+      "createdAt": 1792566718808
+    },
+    {
+      "sid": "b04c01-s049",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Jack thought of all the books up there.",
+      "zhText": "杰克想起了上面那些书。",
+      "createdAt": 1792566702663
+    },
+    {
+      "sid": "b04c01-s046",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "It looked dark and lonely against the stormy sky.",
+      "zhText": "在暴风雨的天空下，它显得又黑又孤单。",
+      "createdAt": 1792566661958
+    },
+    {
+      "sid": "b04c01-s042",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "They splashed through puddles.",
+      "zhText": "他们踩着水坑往前走。",
+      "createdAt": 1792566644744
+    },
+    {
+      "sid": "b04c01-s040",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Tree branches swayed, flinging rainwater everywhere.",
+      "zhText": "树枝摇来摇去，雨水甩得到处都是。",
+      "createdAt": 1792566038163
+    },
+    {
+      "sid": "b04c01-s038",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "They kept their heads down and charged into the rainy wind.",
+      "zhText": "他们低着头，冲进了风雨里。",
+      "createdAt": 1792566028177
+    },
+    {
+      "sid": "b04c01-s034",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Then he put on his backpack and joined her.",
+      "zhText": "然后背上背包，去跟她会合。",
+      "createdAt": 1792565984371
+    },
+    {
+      "sid": "b04c01-s033",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Jack pulled on his raincoat and boots.",
+      "zhText": "杰克穿上雨衣和雨靴。",
+      "createdAt": 1792565981920
+    },
+    {
+      "sid": "b04c01-s030",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Annie was waiting by the back door.",
+      "zhText": "安妮在后门等着。",
+      "createdAt": 1792565961616
+    },
+    {
+      "sid": "b04c01-s020",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "The letter M was engraved on it.",
+      "zhText": "上面刻着字母M。",
+      "createdAt": 1792565346088
+    },
+    {
+      "sid": "b04c01-s016",
+      "bookId": "04-pirates-past-noon",
+      "chapterId": "01-too-late",
+      "enText": "Annie ran to get their rain gear.",
+      "zhText": "安妮跑去拿雨具。",
+      "createdAt": 1792565335028
+    },
     {
       "sid": "b03c10-s056",
       "bookId": "03-mummies-in-the-morning",
