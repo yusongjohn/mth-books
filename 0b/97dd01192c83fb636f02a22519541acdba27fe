@@ -1,0 +1,21 @@
+data/favorites.json
+  s_b36eb6fffdd20a::t_0ef19c41c7687d 3
+viewer/server/db.mjs
+  s_b36eb6fffdd20a::t_e56030417314a2 48-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "0b97dd01192c83fb636f02a22519541acdba27fe",
+  "prompts": {},
+  "sessions": {
+    "s_b36eb6fffdd20a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "988e5bff-a945-4332-ac9a-82c11cf192b2",
+        "model": "default"
+      },
+      "human_author": "song yu <song.yu@zoom.us>"
+    }
+  }
+}
