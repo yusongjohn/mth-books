@@ -1,5 +1,5 @@
 #!/bin/sh
-# Export local SQLite favorites to favorites.json before push.
+# Export local SQLite favorites to data/favorites.json before push.
 set -e
 ROOT="$(git rev-parse --show-toplevel)"
 cd "$ROOT/viewer"
@@ -9,12 +9,12 @@ if [ ! -f package.json ]; then
 fi
 npm run export-favorites
 cd "$ROOT"
-git add favorites.json
-if ! git diff --cached --quiet -- favorites.json; then
+git add data/favorites.json
+if ! git diff --cached --quiet -- data/favorites.json; then
   echo ""
-  echo "favorites.json was updated from SQLite and staged."
+  echo "data/favorites.json was updated from SQLite and staged."
   echo "Commit it before pushing, e.g.:"
-  echo "  git commit -m \"chore: sync favorites.json from sqlite\""
+  echo "  git commit -m \"chore: sync favorites from sqlite\""
   echo ""
   exit 1
 fi

@@ -54,7 +54,7 @@ app.post('/api/favorites/export', (_req, res) => {
   const payload = exportToJson(db)
   res.json({
     ok: true,
-    path: 'favorites.json',
+    path: 'data/favorites.json',
     counts: { sentences: payload.sentences.length },
   })
 })

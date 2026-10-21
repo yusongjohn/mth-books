@@ -1,6 +1,6 @@
 .DS_Store
 
-# Local SQLite (synced via favorites.json instead)
+# Local SQLite (synced via data/favorites.json instead)
 *.sqlite
 *.sqlite-journal
 *.sqlite-wal

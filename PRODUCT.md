@@ -21,7 +21,7 @@ Not a reading app or a course: a private desk copy of one specific series, built
 ## Operating Context
 
 - Runs locally: Vite dev server on 127.0.0.1:5173, Express + SQLite API on 127.0.0.1:8787, started with `npm run dev` in `viewer/`.
-- Favorites live in a local SQLite file and are exported to `favorites.json` (committed to git) on push.
+- Favorites live in a local SQLite file and are exported to `data/favorites.json` (committed to git) on push.
 - Chapter HTML is the source of truth; each English sentence is a `.en .cue[data-sid]`, paired with `.zh .cue` by `data-start` inside `p.line`.
 
 ## Capabilities and Constraints

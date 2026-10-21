@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 export const DATA_DIR = path.resolve(__dirname, '../../data')
 export const SQLITE_PATH = path.join(DATA_DIR, 'favorites.sqlite')
-export const JSON_PATH = path.resolve(__dirname, '../../favorites.json')
+export const JSON_PATH = path.join(DATA_DIR, 'favorites.json')
 
 function migrate(db) {
   db.exec(`
