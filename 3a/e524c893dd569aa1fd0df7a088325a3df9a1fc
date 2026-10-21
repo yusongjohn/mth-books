@@ -1,0 +1,19 @@
+data/favorites.json
+  s_b36eb6fffdd20a::t_2dbfc2a17ab799 3,5-804
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "3ae524c893dd569aa1fd0df7a088325a3df9a1fc",
+  "prompts": {},
+  "sessions": {
+    "s_b36eb6fffdd20a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "988e5bff-a945-4332-ac9a-82c11cf192b2",
+        "model": "default"
+      },
+      "human_author": "song yu <song.yu@zoom.us>"
+    }
+  }
+}
