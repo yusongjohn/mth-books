@@ -45,6 +45,15 @@ export function exportToJson(db = openDb()) {
     )
     .all()
 
+  if (fs.existsSync(JSON_PATH)) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'))
+      if (JSON.stringify(prev.sentences) === JSON.stringify(sentences)) return prev
+    } catch {
+      // unreadable JSON: fall through and rewrite it
+    }
+  }
+
   const payload = {
     version: 1,
     exportedAt: new Date().toISOString(),
