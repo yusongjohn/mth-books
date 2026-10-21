@@ -1,0 +1,29 @@
+.githooks/pre-push
+  s_b36eb6fffdd20a::t_e441e58ebfc37f 2,12-13,15,17
+viewer/server/index.mjs
+  s_b36eb6fffdd20a::t_8de82b8845297b 57
+PRODUCT.md
+  s_b36eb6fffdd20a::t_7ef6515032d9c7 24
+.gitignore
+  s_b36eb6fffdd20a::t_bceec6406c5506 3
+data/favorites.json
+  s_b36eb6fffdd20a::t_14ecc87b048533 1-1718
+viewer/server/db.mjs
+  s_b36eb6fffdd20a::t_28ba01ee088327 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "816eb6442116ad8b034c9d8fabdaafed54100863",
+  "prompts": {},
+  "sessions": {
+    "s_b36eb6fffdd20a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "988e5bff-a945-4332-ac9a-82c11cf192b2",
+        "model": "default"
+      },
+      "human_author": "song yu <song.yu@zoom.us>"
+    }
+  }
+}
